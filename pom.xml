@@ -10,8 +10,10 @@
 	</parent>
 	<groupId>com.kb</groupId>
 	<artifactId>cicd-demo</artifactId>
+
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cicd-demo</name>
+	<packaging>jar</packaging>
 	<description>Demo project for CICD</description>
 	<url/>
 	<licenses>
@@ -49,6 +51,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>cicd-github-actions</finalName>
+
 	</build>
 
 </project>
